@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(216, 187, 149);
+  font-family: 'Audiowide', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  color: black;
+}
+
+.screen {
+  cursor: pointer;
+  width: 60%;
+  background-color: #000 !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.controls {
+  background: rgb(122, 167, 101);
+  color: white;
+  width: 60%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.controls .btn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.controls .fa-play {
+  color: #2fda8a;
+}
+
+.controls .fa-pause {
+  color: rgb(226, 248, 209);
+}
+
+.controls .fa-stop {
+  color: #ec1b30;
+}
+
+.controls .timestamp {
+  color: black;
+  font-weight: bold;
+  margin-left: 10px;
+  width: 100px;
+}
+
+@media (max-width: 800px) {
+  .screen,
+  .controls {
+    width: 90%;
+  }
+}

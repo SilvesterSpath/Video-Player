@@ -1,0 +1,5 @@
+  - font-awesome bootstrap cdn:
+  https://cdnjs.com/libraries/font-awesome
+
+  -  if I want to set a background-color of a video I have to add the !important flag
+  - 
